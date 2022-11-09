@@ -1,0 +1,20 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    gap: 3px;
+    padding: 0;
+}
+
+.pagination__item {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: azure;
+}
+
+.pagination__item:hover {
+    background-color: beige;
+}
+
+.pagination__item:focus {
+    background-color: beige;
+}

@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #cde6fd;
+}
+
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }

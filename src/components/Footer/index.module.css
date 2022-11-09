@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 50px;
+    padding: 15px 0;
+    background-color: #cde6fd;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.link {
+    display: inline-block;  
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.property {
+    font-size: 12px;
+}

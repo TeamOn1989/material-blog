@@ -1,0 +1,17 @@
+.icon {
+    width: 20px;
+    fill: rgb(255, 252, 246);;
+}
+
+.post__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
